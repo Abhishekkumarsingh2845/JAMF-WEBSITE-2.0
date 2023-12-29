@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="icon" href="images/favicon.png" type="image/x-icon" />
+    <!-- Theme tittle -->
+    <title> Start Project</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+    <!--   fonts-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family='Montserrat', sans-serif:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/venobox.min.css" rel="stylesheet">
+    <link href="assets/css/all.min.css" rel="stylesheet">
+    <link href="assets/css/fontawesome.css" rel="stylesheet">
+    <link href="assets/css/aos.css" rel="stylesheet">
+    <link href="assets/css/default.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/responsive.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+
+
+
+
+    <!--header--area--start-->
+    <div class="header__area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="header__wrap">
+                        <div class="header__logo">
+                            <a href="#"><img src="assets/img/logo.png" alt=""></a>
+                        </div>
+                        <div class="header__menu">
+                            <ul>
+                                <li><a href="./index.html">HOME</a></li>
+                                <li><a href="./about.html">ABOUT </a></li>
+                               
+
+                                <li><a href="./services.html">OUR SERVICES</a></li>
+                                <li><a href="./event.html">EVENTS</a></li>
+
+                            </ul>
+                        </div>
+                        <div class="team__logo">
+                            <a href="#"><img src="assets/img/team.png" alt=""></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--header--area--end-->
+    <div class="container-fluid  d-flex  justify-content-center align-items-center"
+        style="width: 100%; height: 60vh; background:url(./assets/img/company-bg.webp);">
+        <div class="row  d-flex flex-column justify-content-center align-items-center ">
+
+            <div class="col">
+                <h1 style="color: white;">About US</h1>
+            </div>
+
+            <div class="col">
+                <p style="width: 60%; color: white;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos eum blanditiis reprehenderit omnis, fuga
+                    maiores ut porro, ipsa ullam magnam quis deleniti beatae debitis aliquam doloribus voluptatem hic
+                    necessitatibus et!</p>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/popper.js"></script>
+    <script src="assets/js/venobox.min.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script>
+        // Initialize venobox as a variable
+        var venobox = new VenoBox();
+
+        venobox.open('#my-link'); // Open specific item
+        venobox.close(); // Close the modal window
+        venobox.next(); // Navigate the next gallery item
+        venobox.prev(); // Navigate the previous gallery item
+        venobox.destroy(); // Destroy the plugin
+
+    </script>
+    <script>
+        AOS.init();
+
+        // You can also pass an optional settings object
+        // below listed default settings
+        AOS.init({
+            // Global settings:
+            disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+            startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+            initClassName: 'aos-init', // class applied after initialization
+            animatedClassName: 'aos-animate', // class applied on animation
+            useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+            disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+            debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+            throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+
+
+            // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+            offset: 120, // offset (in px) from the original trigger point
+            delay: 0, // values from 0 to 3000, with step 50ms
+            duration: 400, // values from 0 to 3000, with step 50ms
+            easing: 'ease', // default easing for AOS animations
+            once: true, // whether animation should happen only once - while scrolling down
+            mirror: false, // whether elements should animate out while scrolling past them
+            anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+
+        });
+
+    </script>
+
+
+
+
+
+
+
+    <script src="assets/js/main.js"></script>
+
+
+
+</html>
